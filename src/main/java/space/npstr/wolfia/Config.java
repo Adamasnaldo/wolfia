@@ -96,7 +96,7 @@ public class Config {
             else values = (Map) sneaky.get("prod");
 
             //sneaky stuff
-            this.discordToken = values.getOrDefault("discordToken", "");
+            this.discordToken = values.getOrDefault("discordToken", "NDEwODcxMzI2MzU4ODk2NjYx.DWStTw.3yKkXREQkBJ0LWnme5kABs6LzbU");
             this.errorLogWebHook = values.getOrDefault("errorLogWebHook", "");
             this.jdbcUrl = values.getOrDefault("jdbcUrl", "");
             this.imgurClientId = values.getOrDefault("imgurClientId", "");
